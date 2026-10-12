@@ -82,7 +82,7 @@ void car_rental_system(){
             else if (choice==3)
             {
                 cout<<"EXITING PROGRAM... THANK YOU"<<endl;
-                break;
+                return;
             }
             
         }
