@@ -16,7 +16,7 @@ void CM_sports(){
     // string address[100];
     string kit_size[100];
     string sports_selection[100];
-    for (int i = 0; i < 4; i++)
+    for (int i = 0; i < total_players; i++)
     {
         int choice;
         cout<<"ENTER 1 TO APPLY"<<endl;
@@ -40,8 +40,7 @@ void CM_sports(){
             cout<<"KIT SIZE :"<<endl;
             cin>>kit_size[i];
             
-        }    
-            if (choice==2)
+        }else if (choice==2)
             {
                  cout<<"SELECT CATEGORY (COLLEGE,UNIVERSITY,SCHOOL): "<<endl;
             
